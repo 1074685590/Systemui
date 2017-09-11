@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--//不要在theme中设置<item name="android:fitsSystemWindows">true</item>-->
+    <!--//如果不在布局文件中设置这个属性,系统状态栏不占用空间-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/env_bg"
+    android:fitsSystemWindows="false">
+
+</RelativeLayout>
